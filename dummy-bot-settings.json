@@ -1,0 +1,13 @@
+{
+    "api_token": "Put Discord token in here",
+    "notifying_events": [
+        {
+            "name": "job-scraper-logs",
+            "job_type": "file-transfer",
+            "job_data": "*.txt",
+            "cron_string": "50 22 * * 1-5",
+            "notified_users": ["603720953834504192"],
+            "target_channels": ["1021659359392051221"]
+        }
+   ]
+}
